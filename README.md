@@ -17,8 +17,25 @@ The frontend can be found at [Cloudbreak Cuisine Frontend](https://github.com/pa
 # Installation
 
 
+### Prerequisites
+
+The application runs in containers. Install and configure [Docker](https://docs.docker.com/install/).
+
+### Clone this Repository
+
+```
+git clone https://github.com/josiahg/cloudbreak-cuisine-backend
+```
+
+### Start the application
+
+```
+docker-compose up
+```
+
 # Basic usage
 
+The application includes Swagger for API documentation. Point your browser to [http://localhost:4000/api-docs/](http://localhost:4000/api-docs)
 
 # Authors
 
